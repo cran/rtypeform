@@ -1,0 +1,12 @@
+cc2ba845bd73fdca690299994b49ee72 *DESCRIPTION
+c4e46b96e22fb8be3831a513018b9c24 *NAMESPACE
+4f05e1680d3a6a8f4735be3c6a63b168 *NEWS.md
+b80a8bbf5aef0e34d6d3632f01785fdb *R/get_all_typeforms.R
+b72aadda9d4f6b480f559b62fa0c6d34 *R/get_api.R
+0ab5a91a83e043bd3b9100b27362f072 *R/get_results.R
+6a89bb4d38d44f5f669e1e15ffa542ec *README.md
+acb9dfa390e67e3b98a8c73d4115d190 *man/get_all_typeforms.Rd
+8b7e2fe9e9ae256e4dcd4a1191014e28 *man/get_results.Rd
+fdd4d6b2f737f7cb02bf00b0bb2af68b *tests/testthat.R
+cae894e4e6ac407d503fed6a0b3fb3f0 *tests/testthat/test_get_all_typeforms.R
+b73e105dbda820de57fb7eec20a95933 *tests/testthat/test_get_results.R
