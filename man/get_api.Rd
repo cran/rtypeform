@@ -7,11 +7,10 @@
 get_api(api = NULL)
 }
 \arguments{
-\item{api}{Default \code{NULL}. Your private api key. If \code{api} is \code{NULL}
-we use the environment variable \code{Sys.getenv("typeform_api")}.}
+\item{api}{Default \code{NULL}. Your private api key. If \code{api} is \code{NULL},
+the environment variable \code{Sys.getenv("typeform_api")} is used.}
 }
 \description{
 If the entry \code{typeform_api} exists in your
 \code{.Renviron} return that value. Otherwise, raise an error.
 }
-
