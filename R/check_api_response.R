@@ -1,4 +1,4 @@
-check_api_response = function(resp, cont) {
+check_api_response = function(resp) {
   status_code = httr::status_code(resp)
   if(status_code == 200) return(invisible(NULL))
 
@@ -7,7 +7,7 @@ check_api_response = function(resp, cont) {
   } else if(status_code == 403) {
     "403: Expired token, invalid token, or token does not have access permission"
   } else if(status_code == 404) {
-    "404: Type in URL/ Invalid typeform id"
+    "404: Typo in URL/ Invalid typeform id"
   } else {
     sprintf("rtypeform API request failed [%s]\n",
             status_code)
