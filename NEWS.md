@@ -1,10 +1,15 @@
+# Version 0.3.3
+  * More consistent response with `get_typeforms()`.
+  * Bug fix: Return an empty data frame when there are no typeforms (very edge case).
+  * Bug fix: typeform API insists on integers for times; so use times.
+
 # Version 0.3.2
   * Bug fix: Return an empty data frame when there are no completed responses.
   * Bug fix: Parse hidden fields correctly
 
 # Version 0.3.1
   * Improved error messages for http status codes.
-  * More consistent response with `get_questionnaire()` and `get_typeforms()`.
+  * More consistent response with `get_questionnaire()`.
 
 # Version 0.3.0
   * Breaking changes to the API. `get_results()` now depreciated. 
