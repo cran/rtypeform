@@ -1,7 +1,7 @@
 Package: rtypeform
 Type: Package
 Title: Interface to 'typeform' Results
-Version: 0.4.0
+Version: 2.0.0
 Authors@R: person(given = "Colin", 
                   family = "Gillespie",
                   email = "csgillespie@gmail.com", 
@@ -13,12 +13,13 @@ Description: An R interface to the 'typeform' <https://typeform.com> application
   Also provides functions for downloading your results.
 License: GPL-2 | GPL-3
 LazyData: TRUE
-Imports: jsonlite, httr, purrr, utils, tibble
-Suggests: testthat, curl, dplyr, shiny(>= 1.0.0), miniUI(>= 0.1.1),
-        rstudioapi(>= 0.5)
-RoxygenNote: 6.0.1
+Imports: jsonlite, httr, purrr, utils, tibble, dplyr, glue, lubridate,
+        tidyr
+Suggests: testthat
+RoxygenNote: 6.1.0
+Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2018-07-27 07:45:16 UTC; ncsg3
+Packaged: 2018-08-28 21:30:54 UTC; ncsg3
 Author: Colin Gillespie [aut, cre]
 Repository: CRAN
-Date/Publication: 2018-07-27 09:20:03 UTC
+Date/Publication: 2018-08-28 21:40:02 UTC
